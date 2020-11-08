@@ -11,7 +11,8 @@ void main() {
             ),
             body: Center(
               child: Image(
-                  image: NetworkImage('https://images.unsplash.com/photo-1541332246502-2e99eaa96cc1?ixlib=rb-1.2.1&w=1000&q=80')),
+                  image: AssetImage('images/gradient.png'),
+              ),
             )
         ),
       )
